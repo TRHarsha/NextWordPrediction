@@ -157,7 +157,8 @@ def main():
     st.markdown(
         """
         <div style="text-align: center;">
-            <a href="https://in.linkedin.com/in/harshatr" target="_blank" rel="noopener noreferrer" onclick="window.open('https://in.linkedin.com/in/harshatr'); return false;">Made by Harsha TR</a>
+        Made by
+            <a href="https://in.linkedin.com/in/harshatr" target="_blank" rel="noopener noreferrer" onclick="window.open('https://in.linkedin.com/in/harshatr'); return false;">Harsha TR</a>
             &nbsp;|&nbsp;
             <a href="https://www.linkedin.com/in/pkb1202" target="_blank" rel="noopener noreferrer" onclick="window.open('https://www.linkedin.com/in/pkb1202'); return false;">Prabhanjana K</a>
         </div>
