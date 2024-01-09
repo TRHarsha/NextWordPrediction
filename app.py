@@ -151,5 +151,20 @@ def main():
         except Exception as e:
             st.error(f"Error occurred while making the prediction: {e}")
 
+    st.markdown("---")
+
+    # Adding hyperlinks with JavaScript to redirect on click
+    st.markdown(
+        """
+        <div style="text-align: center;">
+            <a href="https://in.linkedin.com/in/harshatr" target="_blank" rel="noopener noreferrer" onclick="window.open('https://in.linkedin.com/in/harshatr'); return false;">Made by Harsha TR</a>
+            &nbsp;|&nbsp;
+            <a href="https://www.linkedin.com/in/pkb1202" target="_blank" rel="noopener noreferrer" onclick="window.open('https://www.linkedin.com/in/pkb1202'); return false;">Prabhanjana K</a>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+
 if __name__ == "__main__":
     main()
